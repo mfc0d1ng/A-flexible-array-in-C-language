@@ -24,7 +24,7 @@ You can link the library to your C project as follows: gcc example.c -l Array
 
 int main()
 {
-    Array* values = Array_construct ([[1,2,3], [4,5,6], [7,8,9]]);
+    Array* values = Array_construct ([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
 
     printf("Array values: ");
     Array_println(values);
