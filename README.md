@@ -67,4 +67,4 @@ int main()
 </pre>
 
 output:
-<pre> ArrayList data: ['Hello world', 'Z', 123, 0.123] </pre>
+<pre> Array data: ['Hello world', 'Z', 123, 0.123] </pre>
