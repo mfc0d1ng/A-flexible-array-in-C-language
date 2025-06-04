@@ -41,7 +41,7 @@ int main()
 </pre>
 
 output:
-<pre> Array values: [[1, 2, 3], [4, 5, 6], [7, 8, 9]] </pre>
+<pre> Array matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]] </pre>
 
 * Example B:
 
