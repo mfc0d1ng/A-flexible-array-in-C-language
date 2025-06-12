@@ -56,10 +56,10 @@ int main()
 {
     Array* data = Array_object();
     
-    Array_push(data, "Hello world");
-    Array_push(data, "Z");
-    Array_push(data, 123);
-    Array_push(data, 0.123);
+    Array_append(data, "Hello world");
+    Array_append(data, "Z");
+    Array_append(data, 123);
+    Array_append(data, 0.123);
     
     printf("ArrayList data: ");
     Array_println(data);
