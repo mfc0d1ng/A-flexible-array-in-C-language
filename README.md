@@ -61,7 +61,7 @@ int main()
     Array_append(data, 123);
     Array_append(data, 0.123);
     
-    printf("ArrayList data: ");
+    printf("Array data: ");
     Array_println(data);
 
     Array_delete(data);
