@@ -3,10 +3,11 @@
 A shared library which provides a set of functions for handling a dynamic array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/20596532/libArray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/20705164/libArray.zip">here</a>
 
 <h2>How to install?</h2>
-Unzip the downloaded file and move libArray.so to /usr/lib
+Install this <a href="https://github.com/mfc0d1ng/Advanced-C-library-for-handling-strings-in-C-language">library</a> first because it's required for handling dynamic strings
+and then Unzip the downloaded file and move libArray.so to /usr/lib
 
 <h2>How to link?</h2>
 You can link the library to your C project as follows: gcc example.c -l Array
@@ -56,7 +57,7 @@ int main()
     Array* data = Array_object();
     
     Array_push(data, "Hello world");
-    Array_push(data, (char)'Z');
+    Array_push(data, "Z");
     Array_push(data, 123);
     Array_push(data, 0.123);
     
