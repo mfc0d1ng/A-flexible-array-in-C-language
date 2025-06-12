@@ -3,7 +3,7 @@
 A shared library which provides a set of functions for handling a dynamic array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/20709039/libArray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/20715864/libArray.zip">here</a>
 
 <h2>How to install?</h2>
 Install this <a href="https://github.com/mfc0d1ng/Advanced-C-library-for-handling-strings-in-C-language">library</a> first because it's required for handling dynamic strings
