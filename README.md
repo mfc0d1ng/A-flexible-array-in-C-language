@@ -3,14 +3,14 @@
 A shared library which provides a set of functions for handling a dynamic array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/20847432/libArray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/20886351/libArray.zip">here</a>
 
 <h2>How to install?</h2>
 Install this <a href="https://github.com/mfc0d1ng/Advanced-C-library-for-handling-strings-in-C-language">library</a> first because it's required for handling dynamic strings
 and then Unzip the downloaded file and move libArray.so to /usr/lib
 
 <h2>How to link?</h2>
-You can link the library to your C project as follows: gcc example.c -l Array
+You can link the library to your C project as follows: gcc example.c -l Array -l String
 
 <br>
 <h2> Examples </h2>
@@ -25,7 +25,7 @@ You can link the library to your C project as follows: gcc example.c -l Array
 
 int main()
 {
-    Array* matrix = Array_Array ([
+    Array* matrix = Array_from ([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
