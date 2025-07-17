@@ -3,13 +3,13 @@
 A shared library which provides a set of functions for handling a dynamic array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/20886351/libArray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/21283497/libArray.zip">here</a>
 
 <h2>How to install?</h2>
-Install this <a href="https://github.com/mfc0d1ng/Advanced-C-library-for-handling-strings-in-C-language">library</a> first and then Unzip the downloaded file and move libArray.so to /usr/lib
+Unzip the downloaded file and move libArray.so to /usr/lib
 
 <h2>How to link?</h2>
-You can link the library to your C project as follows: gcc example.c -l Array -l String
+You can link the library to your C project as follows: gcc example.c -l Array
 
 <br>
 <h2> Examples </h2>
