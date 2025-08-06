@@ -3,7 +3,7 @@
 A shared library which provides a set of functions for handling a dynamic array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/21415604/libArray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/21613716/libArray.zip">here</a>
 
 <h2>How to install?</h2>
 Unzip the downloaded file and move libArray.so to /usr/lib
@@ -24,7 +24,7 @@ You can link the library to your C project as follows: gcc example.c -l Array
 
 int main()
 {
-    Array* matrix = Array_from ([
+    Array* matrix = Array_From ([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
