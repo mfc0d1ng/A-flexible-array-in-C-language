@@ -24,7 +24,7 @@ You can link the library to your C project as follows: gcc example.c -l array
 
 int main()
 {
-    array* matrix = array_From ([
+    array* matrix = Array ([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
