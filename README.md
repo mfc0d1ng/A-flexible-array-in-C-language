@@ -1,4 +1,4 @@
-# A dynamic array in C language
+# A flexible array in C language
 
 A shared library which provides a set of functions for handling a flexible array in C.
 
