@@ -6,10 +6,10 @@ A shared library which provides a set of functions for handling a flexible array
 You can download it <a href="https://github.com/user-attachments/files/22059006/libArray.zip">here</a>
 
 <h2>How to install?</h2>
-Unzip the downloaded file and move libarray.so to /usr/lib
+Unzip the downloaded file and move libArray.so to /usr/lib
 
 <h2>How to link?</h2>
-You can link the library to your C project as follows: gcc example.c -l array
+You can link the library to your C project as follows: gcc example.c -l Array
 
 <br>
 <h2> Examples </h2>
