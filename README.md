@@ -1,6 +1,6 @@
 # A dynamic array in C language
 
-A shared library which provides a set of functions for handling a dynamic array in C.
+A shared library which provides a set of functions for handling a flexible array in C.
 
 <h2>How to download?</h2>
 You can download it <a href="https://github.com/user-attachments/files/21815566/libarray.zip">here</a>
@@ -20,20 +20,20 @@ You can link the library to your C project as follows: gcc example.c -l array
 <code class="language-c">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
-#include "array.h"
+#include "Array.h"
 
 int main()
 {
-    array* matrix = Array ([
+    Array* matrix = Array_init ([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
     ]);
 
-    printf("array matrix: ");
-    array_println(matrix);
+    printf("Array matrix: ");
+    Array_println(matrix);
 
-    array_delete(matrix);
+    Array_delete(matrix);
     
     return EXIT_SUCCESS;
 }
@@ -41,7 +41,7 @@ int main()
 </pre>
 
 output:
-<pre> array matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]] </pre>
+<pre> Array matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]] </pre>
 
 * Example B:
 
@@ -49,21 +49,21 @@ output:
 <code class="language-c">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
-#include "array.h"
+#include "Array.h"
 
 int main()
 {
-    array* data = array_object();
+    Array* data = Array_object();
     
-    array_append(data, "Hello world");
-    array_append(data, "Z");
-    array_append(data, 123);
-    array_append(data, 0.123);
+    Array_append(data, "Hello world");
+    Array_append(data, "Z");
+    Array_append(data, 123);
+    Array_append(data, 0.123);
     
-    printf("array data: ");
-    array_println(data);
+    printf("Array data: ");
+    Array_println(data);
 
-    array_delete(data);
+    Array_delete(data);
     
     return EXIT_SUCCESS;
 }
