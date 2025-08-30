@@ -3,7 +3,7 @@
 A shared library which provides a set of functions for handling a flexible array in C.
 
 <h2>How to download?</h2>
-You can download it <a href="https://github.com/user-attachments/files/21815566/libarray.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/22059006/libArray.zip">here</a>
 
 <h2>How to install?</h2>
 Unzip the downloaded file and move libarray.so to /usr/lib
@@ -71,4 +71,4 @@ int main()
 </pre>
 
 output:
-<pre> array data: ['Hello world', 'Z', 123, 0.123] </pre>
+<pre> Array data: ['Hello world', 'Z', 123, 0.123] </pre>
